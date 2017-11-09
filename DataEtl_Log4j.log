@@ -1,0 +1,508 @@
+DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225723: consumed offset = 225723 to 225723
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225735: consumed offset = 225723) to 225735
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225735: consumed offset = 225724 to 225724
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225735: consumed offset = 225725 to 225725
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225735: consumed offset = 225726 to 225726
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225735: consumed offset = 225727 to 225727
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225735: consumed offset = 225728 to 225728
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225735: consumed offset = 225729 to 225729
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225735: consumed offset = 225730 to 225730
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225735: consumed offset = 225731 to 225731
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225735: consumed offset = 225732 to 225732
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225735: consumed offset = 225733 to 225733
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225735: consumed offset = 225734 to 225734
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225735: consumed offset = 225735 to 225735
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225737: consumed offset = 225736 to 225736
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225737: consumed offset = 225736) to 225737
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225737: consumed offset = 225737 to 225737
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225741: consumed offset = 225738 to 225738
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225741: consumed offset = 225738) to 225741
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225741: consumed offset = 225739 to 225739
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225741: consumed offset = 225740 to 225740
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225741: consumed offset = 225741 to 225741
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225746: consumed offset = 225742 to 225742
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225746: consumed offset = 225742) to 225746
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225746: consumed offset = 225743 to 225743
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225746: consumed offset = 225744 to 225744
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225746: consumed offset = 225745 to 225745
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225746: consumed offset = 225746 to 225746
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225762: consumed offset = 225746) to 225762
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225762: consumed offset = 225747 to 225747
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225762: consumed offset = 225748 to 225748
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225762: consumed offset = 225749 to 225749
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225762: consumed offset = 225750 to 225750
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225762: consumed offset = 225751 to 225751
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225762: consumed offset = 225752 to 225752
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225762: consumed offset = 225753 to 225753
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225762: consumed offset = 225754 to 225754
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225762: consumed offset = 225755 to 225755
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225762: consumed offset = 225756 to 225756
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225762: consumed offset = 225757 to 225757
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225762: consumed offset = 225758 to 225758
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225762: consumed offset = 225759 to 225759
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225762: consumed offset = 225760 to 225760
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225762: consumed offset = 225761 to 225761
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225762: consumed offset = 225762 to 225762
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225766: consumed offset = 225762) to 225766
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225766: consumed offset = 225763 to 225763
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225766: consumed offset = 225764 to 225764
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225766: consumed offset = 225765 to 225765
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225766: consumed offset = 225766 to 225766
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225770: consumed offset = 225767 to 225767
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225770: consumed offset = 225767) to 225770
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225770: consumed offset = 225768 to 225768
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225770: consumed offset = 225769 to 225769
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225770: consumed offset = 225770 to 225770
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225771: consumed offset = 225770) to 225771
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225771: consumed offset = 225771 to 225771
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225784: consumed offset = 225771) to 225784
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225784: consumed offset = 225772 to 225772
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225784: consumed offset = 225773 to 225773
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225784: consumed offset = 225774 to 225774
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225784: consumed offset = 225775 to 225775
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225784: consumed offset = 225776 to 225776
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225784: consumed offset = 225777 to 225777
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225784: consumed offset = 225778 to 225778
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225784: consumed offset = 225779 to 225779
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225784: consumed offset = 225780 to 225780
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225784: consumed offset = 225781 to 225781
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225784: consumed offset = 225782 to 225782
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225784: consumed offset = 225783 to 225783
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225784: consumed offset = 225784 to 225784
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225786: consumed offset = 225784) to 225786
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225786: consumed offset = 225785 to 225785
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225786: consumed offset = 225786 to 225786
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225792: consumed offset = 225786) to 225792
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225792: consumed offset = 225787 to 225787
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225792: consumed offset = 225788 to 225788
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225792: consumed offset = 225789 to 225789
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225792: consumed offset = 225790 to 225790
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225792: consumed offset = 225791 to 225791
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225792: consumed offset = 225792 to 225792
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225796: consumed offset = 225792) to 225796
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225796: consumed offset = 225793 to 225793
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225796: consumed offset = 225794 to 225794
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225796: consumed offset = 225795 to 225795
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225796: consumed offset = 225796 to 225796
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225805: consumed offset = 225796) to 225805
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225805: consumed offset = 225797 to 225797
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225805: consumed offset = 225798 to 225798
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225805: consumed offset = 225799 to 225799
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225805: consumed offset = 225800 to 225800
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225805: consumed offset = 225801 to 225801
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225805: consumed offset = 225802 to 225802
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225805: consumed offset = 225803 to 225803
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225805: consumed offset = 225804 to 225804
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225805: consumed offset = 225805 to 225805
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225809: consumed offset = 225805) to 225809
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225809: consumed offset = 225806 to 225806
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225809: consumed offset = 225807 to 225807
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225809: consumed offset = 225808 to 225808
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225809: consumed offset = 225809 to 225809
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225815: consumed offset = 225810 to 225810
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225815: consumed offset = 225810) to 225815
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225815: consumed offset = 225811 to 225811
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225815: consumed offset = 225812 to 225812
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225815: consumed offset = 225813 to 225813
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225815: consumed offset = 225814 to 225814
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225815: consumed offset = 225815 to 225815
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225820: consumed offset = 225815) to 225820
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225820: consumed offset = 225816 to 225816
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225820: consumed offset = 225817 to 225817
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225820: consumed offset = 225818 to 225818
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225820: consumed offset = 225819 to 225819
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225820: consumed offset = 225820 to 225820
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225822: consumed offset = 225820) to 225822
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225822: consumed offset = 225821 to 225821
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225822: consumed offset = 225822 to 225822
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225835: consumed offset = 225822) to 225835
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225835: consumed offset = 225823 to 225823
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225835: consumed offset = 225824 to 225824
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225835: consumed offset = 225825 to 225825
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225835: consumed offset = 225826 to 225826
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225835: consumed offset = 225827 to 225827
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225835: consumed offset = 225828 to 225828
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225835: consumed offset = 225829 to 225829
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225835: consumed offset = 225830 to 225830
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225835: consumed offset = 225831 to 225831
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225835: consumed offset = 225832 to 225832
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225835: consumed offset = 225833 to 225833
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225835: consumed offset = 225834 to 225834
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225835: consumed offset = 225835 to 225835
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225836: consumed offset = 225835) to 225836
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225836: consumed offset = 225836 to 225836
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225837: consumed offset = 225836) to 225837
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225837: consumed offset = 225837 to 225837
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225851: consumed offset = 225837) to 225851
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225851: consumed offset = 225838 to 225838
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225851: consumed offset = 225839 to 225839
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225851: consumed offset = 225840 to 225840
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225851: consumed offset = 225841 to 225841
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225851: consumed offset = 225842 to 225842
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225851: consumed offset = 225843 to 225843
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225851: consumed offset = 225844 to 225844
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225851: consumed offset = 225845 to 225845
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225851: consumed offset = 225846 to 225846
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225851: consumed offset = 225847 to 225847
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225851: consumed offset = 225848 to 225848
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225851: consumed offset = 225849 to 225849
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225851: consumed offset = 225850 to 225850
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225851: consumed offset = 225851 to 225851
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225857: consumed offset = 225851) to 225857
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225857: consumed offset = 225852 to 225852
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225857: consumed offset = 225853 to 225853
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225857: consumed offset = 225854 to 225854
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225857: consumed offset = 225855 to 225855
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225857: consumed offset = 225856 to 225856
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225857: consumed offset = 225857 to 225857
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225864: consumed offset = 225857) to 225864
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225864: consumed offset = 225858 to 225858
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225864: consumed offset = 225859 to 225859
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225864: consumed offset = 225860 to 225860
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225864: consumed offset = 225861 to 225861
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225864: consumed offset = 225862 to 225862
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225864: consumed offset = 225863 to 225863
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225864: consumed offset = 225864 to 225864
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225867: consumed offset = 225864) to 225867
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225867: consumed offset = 225865 to 225865
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225867: consumed offset = 225866 to 225866
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225867: consumed offset = 225867 to 225867
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225879: consumed offset = 225868 to 225868
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225879: consumed offset = 225868) to 225879
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225879: consumed offset = 225869 to 225869
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225879: consumed offset = 225870 to 225870
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225879: consumed offset = 225871 to 225871
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225879: consumed offset = 225872 to 225872
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225879: consumed offset = 225873 to 225873
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225879: consumed offset = 225874 to 225874
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225879: consumed offset = 225875 to 225875
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225879: consumed offset = 225876 to 225876
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225879: consumed offset = 225877 to 225877
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225879: consumed offset = 225878 to 225878
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225879: consumed offset = 225879 to 225879
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225883: consumed offset = 225879) to 225883
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225883: consumed offset = 225880 to 225880
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225883: consumed offset = 225881 to 225881
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225883: consumed offset = 225882 to 225882
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225883: consumed offset = 225883 to 225883
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225890: consumed offset = 225883) to 225890
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225890: consumed offset = 225884 to 225884
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225890: consumed offset = 225885 to 225885
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225890: consumed offset = 225886 to 225886
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225890: consumed offset = 225887 to 225887
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225890: consumed offset = 225888 to 225888
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225890: consumed offset = 225889 to 225889
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225890: consumed offset = 225890 to 225890
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225895: consumed offset = 225890) to 225895
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225895: consumed offset = 225891 to 225891
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225895: consumed offset = 225892 to 225892
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225895: consumed offset = 225893 to 225893
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225895: consumed offset = 225894 to 225894
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225895: consumed offset = 225895 to 225895
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225897: consumed offset = 225895) to 225897
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225897: consumed offset = 225896 to 225896
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225897: consumed offset = 225897 to 225897
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225902: consumed offset = 225898) to 225902
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225902: consumed offset = 225898 to 225898
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225902: consumed offset = 225899 to 225899
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225902: consumed offset = 225900 to 225900
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225902: consumed offset = 225901 to 225901
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225902: consumed offset = 225902 to 225902
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225904: consumed offset = 225903 to 225903
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225904: consumed offset = 225903) to 225904
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225904: consumed offset = 225904 to 225904
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225911: consumed offset = 225904) to 225911
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225911: consumed offset = 225905 to 225905
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225911: consumed offset = 225906 to 225906
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225911: consumed offset = 225907 to 225907
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225911: consumed offset = 225908 to 225908
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225911: consumed offset = 225909 to 225909
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225911: consumed offset = 225910 to 225910
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225911: consumed offset = 225911 to 225911
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225914: consumed offset = 225911) to 225914
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225914: consumed offset = 225912 to 225912
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225914: consumed offset = 225913 to 225913
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225914: consumed offset = 225914 to 225914
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225919: consumed offset = 225914) to 225919
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225919: consumed offset = 225915 to 225915
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225919: consumed offset = 225916 to 225916
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225919: consumed offset = 225917 to 225917
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225919: consumed offset = 225918 to 225918
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225919: consumed offset = 225919 to 225919
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225921: consumed offset = 225919) to 225921
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225921: consumed offset = 225920 to 225920
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225921: consumed offset = 225921 to 225921
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225928: consumed offset = 225921) to 225928
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225928: consumed offset = 225922 to 225922
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225928: consumed offset = 225923 to 225923
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225928: consumed offset = 225924 to 225924
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225928: consumed offset = 225925 to 225925
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225928: consumed offset = 225926 to 225926
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225928: consumed offset = 225927 to 225927
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225928: consumed offset = 225928 to 225928
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225931: consumed offset = 225928) to 225931
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225931: consumed offset = 225929 to 225929
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225931: consumed offset = 225930 to 225930
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225931: consumed offset = 225931 to 225931
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225935: consumed offset = 225931) to 225935
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225935: consumed offset = 225932 to 225932
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225935: consumed offset = 225933 to 225933
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225935: consumed offset = 225934 to 225934
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225935: consumed offset = 225935 to 225935
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225941: consumed offset = 225935) to 225941
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225941: consumed offset = 225936 to 225936
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225941: consumed offset = 225937 to 225937
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225941: consumed offset = 225938 to 225938
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225941: consumed offset = 225939 to 225939
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225941: consumed offset = 225940 to 225940
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225941: consumed offset = 225941 to 225941
+ DEBUG main-SendThread(172.16.18.234:2999) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x35f860c7d820270 after 2ms
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225949: consumed offset = 225941) to 225949
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225949: consumed offset = 225942 to 225942
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225949: consumed offset = 225943 to 225943
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225949: consumed offset = 225944 to 225944
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225949: consumed offset = 225945 to 225945
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225949: consumed offset = 225946 to 225946
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225949: consumed offset = 225947 to 225947
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225949: consumed offset = 225948 to 225948
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225949: consumed offset = 225949 to 225949
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225953: consumed offset = 225950 to 225950
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225953: consumed offset = 225950) to 225953
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225953: consumed offset = 225951 to 225951
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225953: consumed offset = 225952 to 225952
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225953: consumed offset = 225953 to 225953
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225954: consumed offset = 225953) to 225954
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225954: consumed offset = 225954 to 225954
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225963: consumed offset = 225954) to 225963
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225963: consumed offset = 225955 to 225955
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225963: consumed offset = 225956 to 225956
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225963: consumed offset = 225957 to 225957
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225963: consumed offset = 225958 to 225958
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225963: consumed offset = 225959 to 225959
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225963: consumed offset = 225960 to 225960
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225963: consumed offset = 225961 to 225961
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225963: consumed offset = 225962 to 225962
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225963: consumed offset = 225963 to 225963
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225971: consumed offset = 225963) to 225971
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225971: consumed offset = 225964 to 225964
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225971: consumed offset = 225965 to 225965
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225971: consumed offset = 225966 to 225966
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225971: consumed offset = 225967 to 225967
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225971: consumed offset = 225968 to 225968
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225971: consumed offset = 225969 to 225969
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225971: consumed offset = 225970 to 225970
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225971: consumed offset = 225971 to 225971
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225974: consumed offset = 225972 to 225972
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225974: consumed offset = 225973 to 225973
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225974: consumed offset = 225974 to 225974
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225974: consumed offset = 225972) to 225974
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225978: consumed offset = 225974) to 225978
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225978: consumed offset = 225975 to 225975
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225978: consumed offset = 225976 to 225976
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225978: consumed offset = 225977 to 225977
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225978: consumed offset = 225978 to 225978
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225983: consumed offset = 225978) to 225983
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225983: consumed offset = 225979 to 225979
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225983: consumed offset = 225980 to 225980
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225983: consumed offset = 225981 to 225981
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225983: consumed offset = 225982 to 225982
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225983: consumed offset = 225983 to 225983
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225987: consumed offset = 225983) to 225987
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225987: consumed offset = 225984 to 225984
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225987: consumed offset = 225985 to 225985
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225987: consumed offset = 225986 to 225986
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225987: consumed offset = 225987 to 225987
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225989: consumed offset = 225987) to 225989
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225989: consumed offset = 225988 to 225988
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225989: consumed offset = 225989 to 225989
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 225999: consumed offset = 225989) to 225999
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225999: consumed offset = 225990 to 225990
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225999: consumed offset = 225991 to 225991
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225999: consumed offset = 225992 to 225992
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225999: consumed offset = 225993 to 225993
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225999: consumed offset = 225994 to 225994
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225999: consumed offset = 225995 to 225995
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225999: consumed offset = 225996 to 225996
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225999: consumed offset = 225997 to 225997
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225999: consumed offset = 225998 to 225998
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 225999: consumed offset = 225999 to 225999
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226004: consumed offset = 226000 to 226000
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 226004: consumed offset = 226000) to 226004
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226004: consumed offset = 226001 to 226001
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226004: consumed offset = 226002 to 226002
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226004: consumed offset = 226003 to 226003
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226004: consumed offset = 226004 to 226004
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226008: consumed offset = 226005 to 226005
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 226008: consumed offset = 226005) to 226008
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226008: consumed offset = 226006 to 226006
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226008: consumed offset = 226007 to 226007
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226008: consumed offset = 226008 to 226008
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 226012: consumed offset = 226009) to 226012
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226012: consumed offset = 226009 to 226009
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226012: consumed offset = 226010 to 226010
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226012: consumed offset = 226011 to 226011
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226012: consumed offset = 226012 to 226012
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226019: consumed offset = 226013 to 226013
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 226019: consumed offset = 226013) to 226019
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226019: consumed offset = 226014 to 226014
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226019: consumed offset = 226015 to 226015
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226019: consumed offset = 226016 to 226016
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226019: consumed offset = 226017 to 226017
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226019: consumed offset = 226018 to 226018
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226019: consumed offset = 226019 to 226019
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226024: consumed offset = 226020 to 226020
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226024: consumed offset = 226021 to 226021
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 226024: consumed offset = 226020) to 226024
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226024: consumed offset = 226022 to 226022
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226024: consumed offset = 226023 to 226023
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226024: consumed offset = 226024 to 226024
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226026: consumed offset = 226025 to 226025
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 226026: consumed offset = 226025) to 226026
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226026: consumed offset = 226026 to 226026
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226037: consumed offset = 226027 to 226027
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 226037: consumed offset = 226027) to 226037
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226037: consumed offset = 226028 to 226028
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226037: consumed offset = 226029 to 226029
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226037: consumed offset = 226030 to 226030
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226037: consumed offset = 226031 to 226031
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226037: consumed offset = 226032 to 226032
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226037: consumed offset = 226033 to 226033
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226037: consumed offset = 226034 to 226034
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226037: consumed offset = 226035 to 226035
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226037: consumed offset = 226036 to 226036
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226037: consumed offset = 226037 to 226037
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226041: consumed offset = 226038 to 226038
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226041: consumed offset = 226039 to 226039
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226041: consumed offset = 226040 to 226040
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226041: consumed offset = 226041 to 226041
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 226041: consumed offset = 226038) to 226041
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226047: consumed offset = 226042 to 226042
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 226047: consumed offset = 226042) to 226047
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226047: consumed offset = 226043 to 226043
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226047: consumed offset = 226044 to 226044
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226047: consumed offset = 226045 to 226045
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226047: consumed offset = 226046 to 226046
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226047: consumed offset = 226047 to 226047
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226049: consumed offset = 226048 to 226048
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 226049: consumed offset = 226048) to 226049
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226049: consumed offset = 226049 to 226049
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 226056: consumed offset = 226050) to 226056
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226056: consumed offset = 226050 to 226050
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226056: consumed offset = 226051 to 226051
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226056: consumed offset = 226052 to 226052
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226056: consumed offset = 226053 to 226053
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226056: consumed offset = 226054 to 226054
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226056: consumed offset = 226055 to 226055
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226056: consumed offset = 226056 to 226056
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226062: consumed offset = 226057 to 226057
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 226062: consumed offset = 226057) to 226062
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226062: consumed offset = 226058 to 226058
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226062: consumed offset = 226059 to 226059
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226062: consumed offset = 226060 to 226060
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226062: consumed offset = 226061 to 226061
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226062: consumed offset = 226062 to 226062
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 226069: consumed offset = 226062) to 226069
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226069: consumed offset = 226063 to 226063
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226069: consumed offset = 226064 to 226064
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226069: consumed offset = 226065 to 226065
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226069: consumed offset = 226066 to 226066
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226069: consumed offset = 226067 to 226067
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226069: consumed offset = 226068 to 226068
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226069: consumed offset = 226069 to 226069
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 226071: consumed offset = 226069) to 226071
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226071: consumed offset = 226070 to 226070
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226071: consumed offset = 226071 to 226071
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226076: consumed offset = 226072 to 226072
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 226076: consumed offset = 226072) to 226076
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226076: consumed offset = 226073 to 226073
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226076: consumed offset = 226074 to 226074
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226076: consumed offset = 226075 to 226075
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226076: consumed offset = 226076 to 226076
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 226079: consumed offset = 226076) to 226079
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226079: consumed offset = 226077 to 226077
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226079: consumed offset = 226078 to 226078
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226079: consumed offset = 226079 to 226079
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 226080: consumed offset = 226080) to 226080
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226080: consumed offset = 226080 to 226080
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 226081: consumed offset = 226080) to 226081
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226081: consumed offset = 226081 to 226081
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226083: consumed offset = 226082 to 226082
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 226083: consumed offset = 226082) to 226083
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226083: consumed offset = 226083 to 226083
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 226084: consumed offset = 226083) to 226084
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226084: consumed offset = 226084 to 226084
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 226086: consumed offset = 226084) to 226086
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226086: consumed offset = 226085 to 226085
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226086: consumed offset = 226086 to 226086
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 226087: consumed offset = 226086) to 226087
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226087: consumed offset = 226087 to 226087
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 226088: consumed offset = 226087) to 226088
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226088: consumed offset = 226088 to 226088
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 226089: consumed offset = 226088) to 226089
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226089: consumed offset = 226089 to 226089
+ DEBUG main-SendThread(172.16.18.234:2999) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x35f860c7d82026f, packet:: clientPath:null serverPath:null finished:false header:: 78,5  replyHeader:: 78,12884906454,0  request:: '/consumers/HHS/offsets/HStest/1,#323236303839,-1  response:: s{12884902909,12884906454,1509980529865,1510043115517,172,0,0,0,6,0,12884902909} 
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 226090: consumed offset = 226089) to 226090
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226090: consumed offset = 226090 to 226090
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 226091: consumed offset = 226090) to 226091
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226091: consumed offset = 226091 to 226091
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 226092: consumed offset = 226091) to 226092
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226092: consumed offset = 226092 to 226092
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.PartitionTopicInfo - updated fetch offset of (HStest:1: fetched offset = 226093: consumed offset = 226092) to 226093
+ DEBUG Thread-3 kafka.consumer.PartitionTopicInfo - reset consume offset of HStest:1: fetched offset = 226093: consumed offset = 226093 to 226093
+ DEBUG main-SendThread(172.16.18.234:2999) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x35f860c7d82026f, packet:: clientPath:null serverPath:null finished:false header:: 79,5  replyHeader:: 79,12884906457,0  request:: '/consumers/HHS/offsets/HStest/1,#323236303933,-1  response:: s{12884902909,12884906457,1509980529865,1510043116519,173,0,0,0,6,0,12884902909} 
+ DEBUG main-SendThread(172.16.18.234:2999) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x35f860c7d82026f after 4ms
+ DEBUG main-SendThread(172.16.18.234:2999) org.apache.zookeeper.ClientCnxn - Got ping response for sessionid: 0x35f860c7d820270 after 1ms
+ INFO main kafka.consumer.ZookeeperConsumerConnector - [HHS_ZGC-20140403DOL-1510193952986-b63ce2c9], ZKConsumerConnector shutting down
+ DEBUG main kafka.utils.KafkaScheduler - Shutting down task scheduler.
+ INFO main kafka.consumer.ConsumerFetcherManager - [ConsumerFetcherManager-1510193953090] Stopping leader finder thread
+ INFO main kafka.consumer.ConsumerFetcherManager$LeaderFinderThread - [HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-leader-finder-thread], Shutting down
+ INFO main kafka.consumer.ConsumerFetcherManager$LeaderFinderThread - [HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-leader-finder-thread], Shutdown completed
+ INFO main kafka.consumer.ConsumerFetcherManager - [ConsumerFetcherManager-1510193953090] Stopping all fetchers
+ INFO main kafka.consumer.ConsumerFetcherThread - [ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-1], Shutting down
+ INFO HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-leader-finder-thread kafka.consumer.ConsumerFetcherManager$LeaderFinderThread - [HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-leader-finder-thread], Stopped 
+ INFO ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-1 kafka.consumer.SimpleConsumer - Reconnect due to socket error: java.nio.channels.ClosedByInterruptException
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-1 kafka.consumer.SimpleConsumer - Disconnecting from 172.16.18.228:9092
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-1 kafka.consumer.SimpleConsumer - Disconnecting from 172.16.18.228:9092
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-1 kafka.consumer.SimpleConsumer - Disconnecting from 172.16.18.228:9092
+ INFO ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-1 kafka.consumer.ConsumerFetcherThread - [ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-1], Stopped 
+ INFO main kafka.consumer.ConsumerFetcherThread - [ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-1], Shutdown completed
+ DEBUG main kafka.consumer.SimpleConsumer - Disconnecting from 172.16.18.228:9092
+ INFO main kafka.consumer.ConsumerFetcherThread - [ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3], Shutting down
+ INFO ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.SimpleConsumer - Reconnect due to socket error: java.nio.channels.ClosedByInterruptException
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.SimpleConsumer - Disconnecting from 172.16.18.234:9092
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.SimpleConsumer - Disconnecting from 172.16.18.234:9092
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.SimpleConsumer - Disconnecting from 172.16.18.234:9092
+ INFO ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3 kafka.consumer.ConsumerFetcherThread - [ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3], Stopped 
+ INFO main kafka.consumer.ConsumerFetcherThread - [ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-3], Shutdown completed
+ DEBUG main kafka.consumer.SimpleConsumer - Disconnecting from 172.16.18.234:9092
+ INFO main kafka.consumer.ConsumerFetcherThread - [ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-2], Shutting down
+ INFO HHS_ZGC-20140403DOL-1510193952986-b63ce2c9_watcher_executor kafka.consumer.ZookeeperConsumerConnector - [HHS_ZGC-20140403DOL-1510193952986-b63ce2c9], stopping watcher executor thread for consumer HHS_ZGC-20140403DOL-1510193952986-b63ce2c9
+ INFO ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-2 kafka.consumer.SimpleConsumer - Reconnect due to socket error: java.nio.channels.ClosedByInterruptException
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-2 kafka.consumer.SimpleConsumer - Disconnecting from 172.16.18.229:9092
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-2 kafka.consumer.SimpleConsumer - Disconnecting from 172.16.18.229:9092
+ DEBUG ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-2 kafka.consumer.SimpleConsumer - Disconnecting from 172.16.18.229:9092
+ INFO ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-2 kafka.consumer.ConsumerFetcherThread - [ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-2], Stopped 
+ INFO main kafka.consumer.ConsumerFetcherThread - [ConsumerFetcherThread-HHS_ZGC-20140403DOL-1510193952986-b63ce2c9-0-2], Shutdown completed
+ DEBUG main kafka.consumer.SimpleConsumer - Disconnecting from 172.16.18.229:9092
+ INFO main kafka.consumer.ConsumerFetcherManager - [ConsumerFetcherManager-1510193953090] All connections stopped
+ DEBUG main kafka.consumer.ZookeeperConsumerConnector - [HHS_ZGC-20140403DOL-1510193952986-b63ce2c9], Clearing up queue
+ DEBUG main kafka.consumer.ZookeeperConsumerConnector - [HHS_ZGC-20140403DOL-1510193952986-b63ce2c9], Cleared queue and sent shutdown command
+ DEBUG main org.I0Itec.zkclient.ZkClient - Closing ZkClient...
+ INFO ZkClient-EventThread-14-172.16.18.234:2999 org.I0Itec.zkclient.ZkEventThread - Terminate ZkClient event thread.
+ DEBUG main org.I0Itec.zkclient.ZkConnection - Closing ZooKeeper connected to 172.16.18.234:2999
+ DEBUG Thread-3 kafka.consumer.ConsumerIterator - Received the shutdown command
+ DEBUG main org.apache.zookeeper.ZooKeeper - Closing session: 0x35f860c7d82026f
+ DEBUG main org.apache.zookeeper.ClientCnxn - Closing client for session: 0x35f860c7d82026f
+ DEBUG main-SendThread(172.16.18.234:2999) org.apache.zookeeper.ClientCnxn - Got notification sessionid:0x35f860c7d82026f
+ DEBUG main-SendThread(172.16.18.234:2999) org.apache.zookeeper.ClientCnxn - Got WatchedEvent state:SyncConnected type:NodeChildrenChanged path:/consumers/HHS/ids for sessionid 0x35f860c7d82026f
+ DEBUG main-EventThread org.I0Itec.zkclient.ZkClient - Received event: WatchedEvent state:SyncConnected type:NodeChildrenChanged path:/consumers/HHS/ids
+ DEBUG main-SendThread(172.16.18.234:2999) org.apache.zookeeper.ClientCnxn - Reading reply sessionid:0x35f860c7d82026f, packet:: clientPath:null serverPath:null finished:false header:: 80,-11  replyHeader:: 80,12884906458,0  request:: null response:: null
+ DEBUG main org.apache.zookeeper.ClientCnxn - Disconnecting client for session: 0x35f860c7d82026f
+ DEBUG main-SendThread(172.16.18.234:2999) org.apache.zookeeper.ClientCnxn - An exception was thrown while closing send thread for session 0x35f860c7d82026f : Unable to read additional data from server sessionid 0x35f860c7d82026f, likely server has closed socket
+ INFO main org.apache.zookeeper.ZooKeeper - Session: 0x35f860c7d82026f closed
+ DEBUG main org.I0Itec.zkclient.ZkClient - Closing ZkClient...done
+ DEBUG main-EventThread org.I0Itec.zkclient.ZkClient - ignoring event '{NodeChildrenChanged | /consumers/HHS/ids}' since shutdown triggered
+ DEBUG main-EventThread org.I0Itec.zkclient.ZkClient - Leaving process event
+ INFO main-EventThread org.apache.zookeeper.ClientCnxn - EventThread shut down
+ INFO main kafka.consumer.ZookeeperConsumerConnector - [HHS_ZGC-20140403DOL-1510193952986-b63ce2c9], ZKConsumerConnector shutdown completed in 215 ms
+ 
