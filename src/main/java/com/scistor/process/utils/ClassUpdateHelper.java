@@ -29,7 +29,6 @@ public class ClassUpdateHelper implements RunningConfig {
 	private static final Log LOG = LogFactory.getLog(ClassUpdateHelper.class);
 	public static List<Integer> slavesPort = new ArrayList<Integer>();
 	public static List<String> slavesIP = new ArrayList<String>();
-	private static final int SESSION_TIMEOUT=30000;
 	
 	public static int updateClassLoader (URL[] urls, String componentLocation, String componentName, ByteBuffer componentInfo) {
 		TaskScheduler.classLoader = new URLClassLoader(urls,Thread.currentThread().getContextClassLoader());
@@ -38,7 +37,7 @@ public class ClassUpdateHelper implements RunningConfig {
 		int i;
 		for (i = 0; i < slavesIP.size(); i++) {
 			try {
-				TFramedTransport transport = new TFramedTransport(new TSocket(slavesIP.get(i), slavesPort.get(i), SESSION_TIMEOUT));
+				TFramedTransport transport = new TFramedTransport(new TSocket(slavesIP.get(i), slavesPort.get(i), THRIFT_SESSION_TIMEOUT));
 				TProtocol protocol = new TCompactProtocol(transport);
 				SlaveService.Client client = new SlaveService.Client(protocol);
 				transport.open();

@@ -1,7 +1,9 @@
 package com.scistor.process.utils;
 
+import com.alibaba.fastjson.JSON;
 import com.google.common.base.Objects;
 import com.scistor.process.pojo.SlavesLocation;
+import com.scistor.process.pojo.TaskResult;
 import com.scistor.process.utils.params.RunningConfig;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.logging.Log;
@@ -23,6 +25,19 @@ import java.util.concurrent.CountDownLatch;
 public class ZKOperator implements RunningConfig {
 
 	private static final Log LOG = LogFactory.getLog(ZKOperator.class);
+
+	public static ZooKeeper getZookeeperInstance() throws IOException {
+		final CountDownLatch cdl = new CountDownLatch(1);
+		ZooKeeper zookeeper = new ZooKeeper(ZOOKEEPER_ADDR, RunningConfig.ZK_SESSION_TIMEOUT, new Watcher() {
+				@Override
+				public void process(WatchedEvent event) {
+					if (event.getState() == Event.KeeperState.SyncConnected) {
+						cdl.countDown();
+					}
+				}
+			});
+		return zookeeper;
+	}
 
 	public static boolean createZnode(final ZooKeeper zk, String path, String data, final CountDownLatch cdl) throws InterruptedException, KeeperException{
 		if(Objects.equal(zk, null)){
@@ -112,14 +127,52 @@ public class ZKOperator implements RunningConfig {
 		return list;
 	}
 
-	public static void main(String[] args) throws IOException, InterruptedException, KeeperException {
-		final CountDownLatch cdl = new CountDownLatch(1);
-		ZooKeeper zooKeeper = new ZooKeeper("172.16.18.18:2181",10000,new Watcher(){
-			@Override
-			public void process(WatchedEvent event) {
-				cdl.countDown();
+	public static void initTaskResult(final ZooKeeper zookeeper, final CountDownLatch cdl, String taskId, List<TaskResult> results, List<String> ipList, List<Integer> portList) throws InterruptedException, KeeperException{
+
+		if(Objects.equal(zookeeper, null)){
+			throw new IllegalArgumentException("zookeeper instance is null...");
+		}
+		if(Objects.equal(results, null) || results.size()==0){
+			throw new IllegalArgumentException("results is null or empty....");
+		}
+
+		for (int i = 0; i < ipList.size(); i++) {
+			String ip = ipList.get(i);
+			String port = portList.get(i) + "";
+			String nodeName = ip + ":" + port;
+			for (int j = 0; j < results.size(); j++) {
+				String operatorMainClass = results.get(j).getMainClass();
+				String data = JSON.toJSONString(results.get(j));
+				String zPath = TASK_RESULT_PATH + "/" + taskId + "/" + nodeName + "/" + operatorMainClass;
+				createZnode(zookeeper, zPath, data, cdl);
+				LOG.info(String.format("Task result init, taskId[%s], node[%s], info[%s]", taskId, zPath, data));
 			}
-		});
+		}
+
+	}
+
+	public static void updateTaskResult(final ZooKeeper zookeeper, final CountDownLatch cdl, String taskId, String mainClass, String ip, String port, TaskResult result) throws InterruptedException, KeeperException{
+
+		if(Objects.equal(zookeeper, null)||Objects.equal(result, null)){
+			throw new IllegalArgumentException(String.format("zookeeper[%s] or result[%s] is not available...",zookeeper,result));
+		}
+		if(!Objects.equal(cdl, null)){
+			cdl.await();
+		}
+
+		String nodeName = ip + ":" + port;
+		String zPath = TASK_RESULT_PATH + "/" + taskId + "/" + nodeName + "/" + mainClass;
+		if(zookeeper.exists(zPath, false) != null){
+			zookeeper.setData(zPath, JSON.toJSONString(result).getBytes(), -1);
+			LOG.info(String.format(String.format("Update zk result, taskId:[%s], ZK_NODE_PATH:[%s], RESULT:[%s]", taskId, zPath, JSON.toJSONString(result))));
+		}else{
+			throw new IllegalArgumentException(String.format("taskId:[%s], ZK_NODE_PATH[%s], is not exists, check taskId, or new .......", taskId, zPath));
+		}
+
+	}
+
+	public static void main(String[] args) throws IOException, InterruptedException, KeeperException {
+
 	}
 
 }

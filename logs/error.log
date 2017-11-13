@@ -50,3 +50,79 @@ OR] taskId=e6e25a23-1067-4a59-9862-47a7f817a204,result={"taskId":"e6e25a23-1067-
 [com.scistor.process.thrift.client.ClientTest 2017-11-10 17:32:39]:  [ERROR] ********************************* 
 [com.scistor.process.thrift.client.ClientTest 2017-11-10 17:32:39]:  [ERROR] 第0次连接-提交任务-断开连接 完成 
 [com.scistor.process.thrift.client.ClientTest 2017-11-10 17:32:39]:  [ERROR] ################################# 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 13:45:05]:  [ERROR] taskId=8653ff97-756e-4083-b5c9-5d0072b1f7c2,result={"taskId":"8653ff97-756e-4083-b5c9-5d0072b1f7c2","errorInfo":"[null]","errorCode":0} 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 13:45:05]:  [ERROR] ********************************* 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 13:45:05]:  [ERROR] 第0次连接-提交任务-断开连接 完成 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 13:45:05]:  [ERROR] ################################# 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 13:51:27]:  [ERROR] taskId=547ddeac-f243-476e-897e-a46541f7735f,result={"taskId":"547ddeac-f243-476e-897e-a46541f7735f","errorInfo":"[null]","errorCode":0} 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 13:51:27]:  [ERROR] ********************************* 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 13:51:27]:  [ERROR] 第0次连接-提交任务-断开连接 完成 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 13:51:27]:  [ERROR] ################################# 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 15:49:32]:  [ERROR] taskId=76c69097-57ef-4128-b708-8704f1ff3ca8,result={"taskId":"76c69097-57ef-4128-b708-8704f1ff3ca8","errorInfo":"[null]","errorCode":0} 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 15:49:32]:  [ERROR] ********************************* 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 15:49:32]:  [ERROR] 第0次连接-提交任务-断开连接 完成 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 15:49:32]:  [ERROR] ################################# 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 15:59:21]:  [ERROR] taskId=dea47a50-2760-42c7-8fdc-a60b8785b30a,result={"taskId":"dea47a50-2760-42c7-8fdc-a60b8785b30a","errorInfo":"[null]","errorCode":0} 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 15:59:21]:  [ERROR] ********************************* 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 15:59:21]:  [ERROR] 第0次连接-提交任务-断开连接 完成 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 15:59:21]:  [ERROR] ################################# 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 16:06:57]:  [ERROR] taskId=05baccc6-1295-4149-8e73-f567ff7262a7,result={"taskId":"05baccc6-1295-4149-8e73-f567ff7262a7","errorInfo":"[null]","errorCode":0} 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 16:06:57]:  [ERROR] ********************************* 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 16:06:57]:  [ERROR] 第0次连接-提交任务-断开连接 完成 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 16:06:57]:  [ERROR] ################################# 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 16:17:00]:  [ERROR] taskId=05ac5370-8fa8-46b6-be51-60002575ca07,result={"taskId":"05ac5370-8fa8-46b6-be51-60002575ca07","errorInfo":"[null]","errorCode":0} 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 16:17:00]:  [ERROR] ********************************* 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 16:17:00]:  [ERROR] 第0次连接-提交任务-断开连接 完成 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 16:17:00]:  [ERROR] ################################# 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 16:21:51]:  [ERROR] taskId=ef74eb3d-a95d-480f-87cc-06035b6cbfd6,result={"taskId":"ef74eb3d-a95d-480f-87cc-06035b6cbfd6","errorInfo":"[null]","errorCode":0} 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 16:21:51]:  [ERROR] ********************************* 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 16:21:51]:  [ERROR] 第0次连接-提交任务-断开连接 完成 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 16:21:51]:  [ERROR] ################################# 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 16:28:57]:  [ERROR] taskId=2f7dff96-2c68-4199-8589-dcb2675ddc30,result={"taskId":"2f7dff96-2c68-4199-8589-dcb2675ddc30","errorInfo":"[null]","errorCode":0} 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 16:28:57]:  [ERROR] ********************************* 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 16:28:57]:  [ERROR] 第0次连接-提交任务-断开连接 完成 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 16:28:57]:  [ERROR] ################################# 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 16:31:59]:  [ERROR] taskId=bdf21ed5-41c4-4742-861c-b093d087f880,result={"taskId":"bdf21ed5-41c4-4742-861c-b093d087f880","errorInfo":"[null]","errorCode":0} 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 16:31:59]:  [ERROR] ********************************* 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 16:31:59]:  [ERROR] 第0次连接-提交任务-断开连接 完成 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 16:31:59]:  [ERROR] ################################# 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 16:41:18]:  [ERROR] taskId=380dad4f-0dfd-4857-bc7f-8e02539337ec,result={"taskId":"380dad4f-0dfd-4857-bc7f-8e02539337ec","errorInfo":"[null]","errorCode":0} 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 16:41:18]:  [ERROR] ********************************* 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 16:41:18]:  [ERROR] 第0次连接-提交任务-断开连接 完成 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 16:41:18]:  [ERROR] ################################# 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 16:47:08]:  [ERROR] taskId=5310f40e-980f-438d-bb51-715a0685e9e2,result={"taskId":"5310f40e-980f-438d-bb51-715a0685e9e2","errorInfo":"[null]","errorCode":0} 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 16:47:08]:  [ERROR] ********************************* 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 16:47:08]:  [ERROR] 第0次连接-提交任务-断开连接 完成 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 16:47:08]:  [ERROR] ################################# 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 16:51:09]:  [ERROR] taskId=dd70842d-a946-47b7-afeb-8ded58a73432,result={"taskId":"dd70842d-a946-47b7-afeb-8ded58a73432","errorInfo":"[null]","errorCode":0} 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 16:51:09]:  [ERROR] ********************************* 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 16:51:09]:  [ERROR] 第0次连接-提交任务-断开连接 完成 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 16:51:09]:  [ERROR] ################################# 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 17:02:06]:  [ERROR] taskId=4be2e872-5aea-4862-a7f4-3e10e479c23c,result={"taskId":"4be2e872-5aea-4862-a7f4-3e10e479c23c","errorInfo":"[null]","errorCode":0} 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 17:02:06]:  [ERROR] ********************************* 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 17:02:06]:  [ERROR] 第0次连接-提交任务-断开连接 完成 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 17:02:06]:  [ERROR] ################################# 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 17:03:17]:  [ERROR] taskId=f34dcf70-03bf-460c-a05c-773f29bba43a,result={"taskId":"f34dcf70-03bf-460c-a05c-773f29bba43a","errorInfo":"[null]","errorCode":0} 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 17:03:17]:  [ERROR] ********************************* 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 17:03:17]:  [ERROR] 第0次连接-提交任务-断开连接 完成 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 17:03:17]:  [ERROR] ################################# 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 17:08:34]:  [ERROR] taskId=05077a78-feb9-41f1-afa4-c36fc7525c28,result={"taskId":"05077a78-feb9-41f1-afa4-c36fc7525c28","errorInfo":"[null]","errorCode":0} 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 17:08:34]:  [ERROR] ********************************* 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 17:08:34]:  [ERROR] 第0次连接-提交任务-断开连接 完成 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 17:08:34]:  [ERROR] ################################# 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 17:09:35]:  [ERROR] taskId=83ae1046-8424-4301-9f20-b39997594600,result={"taskId":"83ae1046-8424-4301-9f20-b39997594600","errorInfo":"[null]","errorCode":0} 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 17:09:35]:  [ERROR] ********************************* 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 17:09:35]:  [ERROR] 第0次连接-提交任务-断开连接 完成 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 17:09:35]:  [ERROR] ################################# 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 17:19:14]:  [ERROR] taskId=f6f86c18-fb3d-47bb-9280-998248c356b5,result={"taskId":"f6f86c18-fb3d-47bb-9280-998248c356b5","errorInfo":"[null]","errorCode":0} 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 17:19:14]:  [ERROR] ********************************* 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 17:19:14]:  [ERROR] 第0次连接-提交任务-断开连接 完成 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 17:19:14]:  [ERROR] ################################# 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 17:23:40]:  [ERROR] taskId=a1d8e644-f1ff-432f-bc3b-e79cead0e411,result={"taskId":"a1d8e644-f1ff-432f-bc3b-e79cead0e411","errorInfo":"[null]","errorCode":0} 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 17:23:40]:  [ERROR] ********************************* 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 17:23:40]:  [ERROR] 第0次连接-提交任务-断开连接 完成 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 17:23:40]:  [ERROR] ################################# 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 17:29:37]:  [ERROR] taskId=b69b063f-4c57-4adf-90db-fb9c758b19b2,result={"taskId":"b69b063f-4c57-4adf-90db-fb9c758b19b2","errorInfo":"[null]","errorCode":0} 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 17:29:37]:  [ERROR] ********************************* 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 17:29:37]:  [ERROR] 第0次连接-提交任务-断开连接 完成 
+[com.scistor.process.thrift.client.ClientTest 2017-11-13 17:29:37]:  [ERROR] ################################# 

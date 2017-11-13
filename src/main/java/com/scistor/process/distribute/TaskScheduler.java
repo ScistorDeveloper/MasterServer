@@ -20,10 +20,7 @@ import java.io.UnsupportedEncodingException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLClassLoader;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.concurrent.ArrayBlockingQueue;
 
 /**
@@ -105,6 +102,7 @@ public class TaskScheduler {
 				paramMap.put("mainclass", mainclass.getTextTrim());
 				paramMap.put("type", type);
 				paramMap.put("task_type", "producer");
+				paramMap.put("topic", UUID.randomUUID().toString());
 				for (Element e : (List<Element>) parameters.elements()) {
 					String key = e.elementTextTrim("key");
 					String value = e.elementTextTrim("value");
