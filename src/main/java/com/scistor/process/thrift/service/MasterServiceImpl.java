@@ -60,7 +60,7 @@ public class MasterServiceImpl implements RunningConfig, Iface {
 
 		OperatorResponse response=new OperatorResponse(componentName);
 		boolean flag;
-		List<String> errorInfo=new ArrayList<String>();
+		List<String> errorInfo = new ArrayList<String>();
 		response.setErrorInfo(errorInfo);
 
 		// classloader校验

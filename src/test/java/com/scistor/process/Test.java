@@ -1,5 +1,8 @@
 package com.scistor.process;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by Administrator on 2017/11/7.
  */
@@ -27,9 +30,11 @@ public class Test {
 	static class HanldMessage implements Runnable {
 		@Override
 		public void run() {
-			for(int i=0; i<5000; i++) {
-				FlumeClientOperator.sendDataToFlume("this is a client test");
+			List<String> list = new ArrayList<String>();
+			for(int i=0; i<1; i++) {
+				list.add("this is a client test");
 			}
+			FlumeClientOperator.sendDataToFlume(list);
 		}
 	}
 

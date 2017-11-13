@@ -13,6 +13,8 @@ import org.apache.flume.event.EventBuilder;
 
 import java.io.InputStream;
 import java.nio.charset.Charset;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Properties;
 
 public class FlumeClientOperator {
@@ -35,13 +37,18 @@ public class FlumeClientOperator {
             e.printStackTrace();
         }
     }
-    public static void sendDataToFlume(String data) {
+    public static void sendDataToFlume(List<String> data) {
         // Create a Flume Event object that encapsulates the sample data
-        Event event = EventBuilder.withBody(data, Charset.forName("UTF-8"));
+        List<Event> eventList = new ArrayList<Event>();
+        for (String d : data) {
+            Event event = EventBuilder.withBody(d, Charset.forName("UTF-8"));
+            eventList.add(event);
+        }
+
 
         // Send the event
         try {
-            client.append(event);
+            client.appendBatch(eventList);
 //            System.out.println("send event");
         } catch (EventDeliveryException e) {
             // clean up and recreate the client

@@ -11,7 +11,7 @@ public interface RunningConfig {
 	/**
 	 * 存活的从节点 thrift 服务ip,端口信息
 	 */
-	String LIVING_SLAVES = "/www/slaves";
+	String LIVING_SLAVES = "/HS/slave";
 
 	String COMPONENT_LOCATION = SystemConfig.getString("compenent_location");
 	String ZOOKEEPER_ADDR = SystemConfig.getString("zookeeper_addr");

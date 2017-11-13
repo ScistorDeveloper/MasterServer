@@ -12,6 +12,7 @@ import org.apache.thrift.transport.TTransport;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.UUID;
 
 /**
  * Created by Administrator on 2017/11/6.
@@ -24,7 +25,7 @@ public class ClientTest {
 	//测试程序入口
 	public static void main(String[] args) throws TException, ClassNotFoundException, IOException {
 		String xmlContent="";
-		FileInputStream fis =new FileInputStream("D:\\x.txt");
+		FileInputStream fis =new FileInputStream("E:\\new.xml");
 		byte[] b=new byte[fis.available()];
 		fis.read(b);
 		fis.close();
@@ -32,7 +33,7 @@ public class ClientTest {
 		String SERVER_IP="127.0.0.1";
 		int SERVER_PORT=18081;
 		for(int i=0;i<1;i++) {
-			String taskId = "task1";
+			String taskId = UUID.randomUUID().toString();
 			TTransport trans=new TSocket(SERVER_IP,SERVER_PORT,SESSION_TIMEOUT);
 			TFramedTransport transport=new TFramedTransport(trans);
 			TProtocol protocol=new TCompactProtocol(transport);

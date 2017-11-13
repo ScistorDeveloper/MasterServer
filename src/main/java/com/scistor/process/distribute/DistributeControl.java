@@ -36,7 +36,7 @@ public class DistributeControl implements Runnable{
 	private static ArrayList<String> slavesIP = new ArrayList<String>();
 	private String taskId;
 	private List<Map<String, String>> mainClass2ElementList;
-	private static int current = 0;
+	private static int index = 0;
 
 	public DistributeControl(String taskId, List<Map<String, String>> mainClass2ElementList) {
 		super();
@@ -58,22 +58,44 @@ public class DistributeControl implements Runnable{
 		}
 
 		try {
+			List<Map<String, String>> userDefinedOperaterList = getUserDefinedOperaterList(mainClass2ElementList);
 			final Thread[] threads = new Thread[slavesIP.size()];
 			List<FutureTask<String>> futures = new ArrayList<FutureTask<String>>();
+			int current = 0;
 			for (int i = 0; i < slavesIP.size(); i++) {
 				final int slaveNo = i;
-				FutureTask<String> future = new FutureTask<String>(new Callable<String>() {
-					@Override
-					public String call() throws Exception {
-						String result = addSubTask(mainClass2ElementList, taskId, slaveNo, slavesIP.get(slaveNo), slavesPort.get(slaveNo));
-						return result;
-					}
-				});
+				FutureTask<String> future = null;
+				if (current < userDefinedOperaterList.size() && index % slavesIP.size() == slaveNo) {
+					Map<String, String> curMergeOperator = userDefinedOperaterList.get(current);
+					curMergeOperator.put("task_type", "consumer");
+					mainClass2ElementList.add(curMergeOperator);
+					future = new FutureTask<String>(new Callable<String>() {
+						@Override
+						public String call() throws Exception {
+							String result = addSubTask(mainClass2ElementList, taskId, slavesIP.get(slaveNo) + ":" + slavesPort.get(slaveNo), slavesIP.get(slaveNo), slavesPort.get(slaveNo), true);
+							LOG.info(String.format("result is:[%s]", result));
+							return result;
+						}
+					});
+				} else {
+					future = new FutureTask<String>(new Callable<String>() {
+						@Override
+						public String call() throws Exception {
+							String result = addSubTask(mainClass2ElementList, taskId, slavesIP.get(slaveNo) + ":" + slavesPort.get(slaveNo), slavesIP.get(slaveNo), slavesPort.get(slaveNo), false);
+							return result;
+						}
+					});
+				}
 				threads[i] = new Thread(future);
 				threads[i].setName(taskId);
 				threads[i].start();
 				LOG.info(String.format("taskId:[%s], slaveNo:[%s] is processing!", taskId, slaveNo));
 				futures.add(future);
+				if (current < userDefinedOperaterList.size() && index % slavesIP.size() == slaveNo) {
+					mainClass2ElementList.remove(mainClass2ElementList.size() - 1);
+					current++;
+					index++;
+				}
 			}
 //			final Thread[] mergeThreads = new Thread[getUserDefinedOperaterNumbers(mainClass2ElementList)];
 //			for (final Map<String, String> mainClass2Element : mainClass2ElementList) {
@@ -115,13 +137,13 @@ public class DistributeControl implements Runnable{
 
 	}
 
-	private String addSubTask(List<Map<String, String>> elements, String taskId, int slaveNo, String slaveIp, int port) {
+	private String addSubTask(List<Map<String, String>> elements, String taskId, String slave, String slaveIp, int port, boolean contained) {
 		try {
 			TFramedTransport transport = new TFramedTransport(new TSocket(slaveIp, port, SESSION_TIMEOUT));
 			TProtocol protocol = new TCompactProtocol(transport);
 			SlaveService.Client client = new SlaveService.Client(protocol);
 			transport.open();
-			String slaveResult = client.addSubTask(elements, taskId, slaveNo, true);
+			String slaveResult = client.addSubTask(elements, taskId, slave, contained);
 			transport.close();
 			return slaveResult;
 		} catch (TException e) {
@@ -198,6 +220,16 @@ public class DistributeControl implements Runnable{
 			}
 		}
 		return total;
+	}
+
+	private List<Map<String, String>> getUserDefinedOperaterList(List<Map<String, String>> elements) {
+		List<Map<String, String>> userDefinedOperaterList = new ArrayList<Map<String, String>>();
+		for (Map<String, String> element : elements) {
+			if (element.get("type").equals("process")) {
+				userDefinedOperaterList.add(element);
+			}
+		}
+		return userDefinedOperaterList;
 	}
 
 }

@@ -3,7 +3,7 @@
   <xs:element name="workflow">
     <xs:complexType>
       <xs:sequence>
-        <xs:element maxOccurs="unbounded" minOccurs="2" ref="action"/>
+        <xs:element maxOccurs="unbounded" minOccurs="1" ref="action"/>
       </xs:sequence>
       <xs:attribute name="name" use="required" type="xs:string"/>
     </xs:complexType>

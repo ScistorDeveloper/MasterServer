@@ -24,6 +24,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.ArrayBlockingQueue;
 
 /**
  * @Title TaskScheduler
@@ -48,10 +49,10 @@ public class TaskScheduler {
 			LOG.info(String.format("Validate XML Result: [%s]", result));
 			if (result) {
 				List<Map<String, String>> mainClass2ElementList = generateMainClass2ElementList(xmlContent, taskId); //Key:算子主类，Value:算子执行所需参数
-				TaskResponse tResponse = validateActions(mainClass2ElementList, taskId);
-				if (tResponse != null) {
-					return tResponse;
-				}
+//				TaskResponse tResponse = validateActions(mainClass2ElementList, taskId);
+//				if (tResponse != null) {
+//					return tResponse;
+//				}
 				LOG.info(String.format("Validate Completed! Pushing It Into Request Queue, Current Queue Size Is: [%s]", m_queue.size()));
 				int res = m_queue.push(taskId, xmlContent);
 				if(res==-1){
@@ -103,6 +104,7 @@ public class TaskScheduler {
 				paramMap.put("actionName", element.attributeValue("name"));
 				paramMap.put("mainclass", mainclass.getTextTrim());
 				paramMap.put("type", type);
+				paramMap.put("task_type", "producer");
 				for (Element e : (List<Element>) parameters.elements()) {
 					String key = e.elementTextTrim("key");
 					String value = e.elementTextTrim("value");
@@ -130,7 +132,7 @@ public class TaskScheduler {
 			Object reflectObject = reflectClass.newInstance();
 			//进行类加载和参数校验
 			TransformInterface entry = (TransformInterface) reflectObject;
-			entry.init(mainClass2Element);
+			entry.init(mainClass2Element, new ArrayBlockingQueue<Map>(1));
 			List<String> validateResult = entry.validate();
 			if (validateResult != null) {
 				taskResponse = new TaskResponse(taskId, -101, validateResult);

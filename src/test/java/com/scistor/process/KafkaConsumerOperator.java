@@ -38,6 +38,8 @@ public class KafkaConsumerOperator {
 		    threads[i].start();
 	    }
 
+	    System.out.println(String.format("Number of thread is [%s]", threads.length));
+
 	    List<Long> lastRunnableTimeOrigin = new ArrayList<Long>(threads.length);
 	    for (int i = 0; i < threads.length; i++) {
 		    long currentTime = System.currentTimeMillis();
