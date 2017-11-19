@@ -57,7 +57,10 @@ public class ZookeeperOperator {
     }
 
     public static boolean checkPath(String path){
-        try{
+        /*try{
+            if(Objects.equal(zkopt,null)){
+                connect(hostList);
+            }
             if(zkopt.exists(path,null)==null) {
 //                LOG.info("path does not exist " + path);
 //                System.out.println("path does not exist!!");
@@ -72,7 +75,8 @@ public class ZookeeperOperator {
 //            e.printStackTrace();
             LOG.error(e.toString());
         }
-        return false;
+        return false;*/
+        return true;
     }
     public static void registerSlaveInfo( String path, String taskId) throws Exception {
         String result;

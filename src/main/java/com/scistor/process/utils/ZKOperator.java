@@ -5,6 +5,7 @@ import com.google.common.base.Objects;
 import com.scistor.process.pojo.SlavesLocation;
 import com.scistor.process.pojo.TaskResult;
 import com.scistor.process.utils.params.RunningConfig;
+import com.scistor.process.utils.params.SystemConfig;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -12,7 +13,9 @@ import org.apache.zookeeper.*;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 import java.util.concurrent.CountDownLatch;
 
 /**
@@ -127,6 +130,13 @@ public class ZKOperator implements RunningConfig {
 		return list;
 	}
 
+	public static List<String> getRunningOperators(ZooKeeper zookeeper) throws KeeperException, InterruptedException {
+		if(Objects.equal(zookeeper, null)){
+			throw new IllegalArgumentException("zookeeper instance is not available....,zookeeper=="+zookeeper);
+		}
+		return zookeeper.getChildren(SystemConfig.getString("zk_running_operators"), false);
+	}
+
 	public static void initTaskResult(final ZooKeeper zookeeper, final CountDownLatch cdl, String taskId, List<TaskResult> results, List<String> ipList, List<Integer> portList) throws InterruptedException, KeeperException{
 
 		if(Objects.equal(zookeeper, null)){
@@ -171,8 +181,23 @@ public class ZKOperator implements RunningConfig {
 
 	}
 
-	public static void main(String[] args) throws IOException, InterruptedException, KeeperException {
+	public static void updateValue(final ZooKeeper zookeeper, String zPath, String data, final CountDownLatch cdl) throws InterruptedException, KeeperException{
+		if(!Objects.equal(cdl, null)){
+			cdl.await();
+		}
+		if(zookeeper.exists(zPath, false) != null){
+			zookeeper.setData(zPath, data.getBytes(), -1);
+			LOG.info(String.format(String.format("Update zk result, zPath:[%s], data:[%s] success", zPath, data)));
+		}else{
+			LOG.error(String.format("zPath:[%s] is not exist", zPath));
+		}
+	}
 
+	public static void main(String[] args) throws IOException, InterruptedException, KeeperException {
+		ZooKeeper zookeeper = ZKOperator.getZookeeperInstance();
+		List<String> runningOperators = ZKOperator.getRunningOperators(zookeeper);
+		System.out.println(runningOperators.size());
+		zookeeper.close();
 	}
 
 }

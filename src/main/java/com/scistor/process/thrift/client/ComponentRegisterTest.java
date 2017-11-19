@@ -27,7 +27,7 @@ public class ComponentRegisterTest {
 		String SERVER_IP="127.0.0.1";
 		int SERVER_PORT=18081;
 
-		FileInputStream fis = new FileInputStream(new File("F:\\ClassloadTest\\ClassLoad.jar"));
+		FileInputStream fis = new FileInputStream(new File("F:\\ClassloadTest\\GeneratePasswordBook.jar"));
 		byte[] b=new byte[fis.available()];
 		fis.read(b);
 		fis.close();
@@ -38,7 +38,7 @@ public class ComponentRegisterTest {
 		TProtocol protocol=new TCompactProtocol(transport);
 		MasterService.Client client=new MasterService.Client(protocol);
 		transport.open();
-		String result = client.registerComponent("ClassLoad", "mainclass1", buffer);
+		String result = client.registerComponent("GeneratePasswordBook", "com.scistor.operator.GeneratePasswordBook", buffer);
 		transport.close();
 	}
 

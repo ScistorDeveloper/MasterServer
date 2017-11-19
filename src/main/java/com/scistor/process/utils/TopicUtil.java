@@ -6,14 +6,14 @@ import kafka.admin.TopicCommand;
 /**
  * Created by Administrator on 2017/11/10.
  */
-public class TopicUtil implements RunningConfig{
+public class TopicUtil implements RunningConfig {
 
 	/****
 	 * 查询所有主题
 	 *
 	 * @param zookeeperAddr
 	 */
-	public void queryTopics(String zookeeperAddr) {
+	public static void queryTopics(String zookeeperAddr) {
 		String[] options = new String[] {
 				"--list",
 				"--zookeeper", zookeeperAddr
@@ -27,11 +27,11 @@ public class TopicUtil implements RunningConfig{
 	 * @param zookeeperAddr
 	 * @param topicName
 	 */
-	public void createTopic(String zookeeperAddr, String topicName) {
+	public static void createTopic(String zookeeperAddr, String topicName) {
 		String[] options = new String[] {
 				"--create",
 				"--zookeeper", zookeeperAddr,
-				"--partitions", "1",
+				"--partitions", "3",
 				"--topic", topicName,
 				"--replication-factor", "1"
 		};
@@ -45,7 +45,7 @@ public class TopicUtil implements RunningConfig{
 	 * @param topicName
 	 *            --delete --zookeeper host:port --topic topicname
 	 */
-	public void delTopic(String zookeeperAddr, String topicName) {
+	public static void delTopic(String zookeeperAddr, String topicName) {
 		String[] options = new String[] {
 				"--delete",
 				"--zookeeper", zookeeperAddr,
@@ -59,7 +59,7 @@ public class TopicUtil implements RunningConfig{
 	 * @param zookeeperAddr
 	 * @param topicName
 	 */
-	public void detailTopic(String zookeeperAddr, String topicName) {
+	public static void detailTopic(String zookeeperAddr, String topicName) {
 		String[] options = new String[] {
 				"--describe",
 				"--zookeeper", zookeeperAddr,
@@ -68,8 +68,7 @@ public class TopicUtil implements RunningConfig{
 	}
 
 	public static void main(String[] args) {
-		TopicUtil topicutil = new TopicUtil();
-		topicutil.queryTopics(ZOOKEEPER_ADDR);
+
 	}
 
 }

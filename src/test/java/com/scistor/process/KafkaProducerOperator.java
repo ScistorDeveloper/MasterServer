@@ -15,15 +15,13 @@ public class KafkaProducerOperator {
 
 	public static void main(String[] args) throws InterruptedException {
 		Properties props = new Properties();
+		props.put("producer.type","sync");
 		props.put("bootstrap.servers", "172.16.18.228:9092,172.16.18.229:9092,172.16.18.234:9092");
-		props.put("batch.size", 16384);//16M
-		props.put("linger.ms", 10);
-		props.put("buffer.memory", 33554432);//32M
 		props.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer");
 		props.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");
 		props.put("request.required.acks", "1");
 		KafkaProducer producer = new KafkaProducer<String, String>(props);
-		ProducerRecord<String, String> record = new ProducerRecord<String, String>("HStest", UUID.randomUUID().toString(), "test23_60");
+		ProducerRecord<String, String> record = new ProducerRecord<String, String>("5d1434d9-0e20-4d91-a3cd-b5078a7ef849", UUID.randomUUID().toString(), "test23_60");
 		producer.send(record, new Callback() {
 			@Override
 			public void onCompletion(RecordMetadata metadata, Exception e) {

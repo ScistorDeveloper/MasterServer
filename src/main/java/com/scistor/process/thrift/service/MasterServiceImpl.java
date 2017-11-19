@@ -1,7 +1,8 @@
 package com.scistor.process.thrift.service;
 
 import com.google.common.base.Objects;
-import com.scistor.process.distribute.TaskScheduler;
+import com.scistor.process.distribute.DistributeControl;
+import com.scistor.process.distribute.OperatorScheduler;
 import com.scistor.process.pojo.Response.OperatorResponse;
 import com.scistor.process.pojo.Response.TaskResponse;
 import com.scistor.process.thrift.client.ClientTest;
@@ -10,9 +11,16 @@ import com.scistor.process.utils.ClassUpdateHelper;
 import com.scistor.process.utils.ErrorUtil;
 import com.scistor.process.utils.ZKOperator;
 import com.scistor.process.utils.params.RunningConfig;
+import com.scistor.process.utils.params.SystemConfig;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.apache.thrift.TException;
+import org.apache.thrift.protocol.TCompactProtocol;
+import org.apache.thrift.protocol.TProtocol;
+import org.apache.thrift.transport.TFramedTransport;
+import org.apache.thrift.transport.TSocket;
+import org.apache.thrift.transport.TTransportException;
+import org.apache.zookeeper.KeeperException;
 import org.apache.zookeeper.WatchedEvent;
 import org.apache.zookeeper.Watcher;
 import org.apache.zookeeper.ZooKeeper;
@@ -39,18 +47,42 @@ public class MasterServiceImpl implements RunningConfig, Iface {
 	private static final ConcurrentHashMap<String,String> ClassToCompenent=new ConcurrentHashMap<String,String>();
 
 	@Override
-	public String newTask(String taskId, String xmlContent) throws TException {
-		LOG.info(String.format("[THRIFT]: Task Accept Successfully, taskId: [%s], xmlContent: [%s]", taskId, xmlContent));
+	public String addOperators(String xmlContent) throws TException {
+		LOG.info(String.format("[THRIFT]: Task Accept Successfully, xmlContent: [%s]", xmlContent));
 		TaskResponse response = null;
 		try{
-			response = TaskScheduler.newTask(taskId, xmlContent);
+			response = OperatorScheduler.addNewOperators(xmlContent);
 		}catch(Exception e){
-			for(StackTraceElement ste:e.getStackTrace()){
-				LOG.error(ste);
+			LOG.error("add operator capture an exception:[%s]", e);
+		}
+		LOG.info(String.format("[THRIFT]: Task Response, esponse: [%s]", response.toJSON()));
+		return response.toJSON();
+	}
+
+	@Override
+	public String removeOperators(List<String> operatorMainClassList) throws TException {
+		ZooKeeper zookeeper = null;
+		try {
+			zookeeper = ZKOperator.getZookeeperInstance();
+			List<String> runningOperators = ZKOperator.getRunningOperators(zookeeper);
+			for (String operatorMainClass : operatorMainClassList) {
+				if (!runningOperators.contains(operatorMainClass)) {
+					zookeeper.close();
+					return String.format("remove operators failed! Caused by operator:[%s] is not running in the system.", operatorMainClass);
+				}
+			}
+			removeOperator(operatorMainClassList, zookeeper);
+		} catch (Exception e) {
+			LOG.error("remove operators capture an exception", e);
+			return String.format("remove operators capture an exception:[%s]", e);
+		} finally {
+			try {
+				zookeeper.close();
+			} catch (InterruptedException e) {
+				LOG.error("close zookeeper connection captue an exception", e);
 			}
 		}
-		LOG.info(String.format("[THRIFT]: Task Response, taskId: [%s], response: [%s]", taskId, response.toJSON()));
-		return response.toJSON();
+		return "success";
 	}
 
 	@Override
@@ -133,7 +165,7 @@ public class MasterServiceImpl implements RunningConfig, Iface {
 				if(urls == null || urls.length==0){
 					LOG.info("could not get urls from hdfs or nfs,new operator may be invalid...");
 				}else{
-					ClassUpdateHelper.updateClassLoader(urls, COMPONENT_LOCATION, componentName, componentInfo);
+					ClassUpdateHelper.updateClassLoader(urls, componentName, componentInfo);
 				}
 			}
 			errorInfo.add(String.format("注册成功:组件[%s], 主类[%s]可用", componentName, mainClass));
@@ -200,6 +232,39 @@ public class MasterServiceImpl implements RunningConfig, Iface {
 			}
 		}
 		return urls;
+	}
+
+	private void removeOperator(List<String> operatorMainClassList, ZooKeeper zookeeper) throws Exception {
+		for (String operatorMainClass : operatorMainClassList) {
+			//在ZK上查询该算子的consumer运行在哪个节点
+			List<String> children = zookeeper.getChildren(ZK_RUNNING_OPERATORS + "/" + operatorMainClass, null);
+			String ip_port = children.get(0);
+			//在赛思执行该算子consumer阶段的从节点上，结束该算子consumer线程的执行
+			stopConsumer(ip_port, operatorMainClass);
+			//在太极执行该算子producer阶段的从节点上，结束该算子producer线程的执行
+			stopProducer(operatorMainClass);
+		}
+	}
+
+	private void stopConsumer(String consumerSlaveServerIPAndPort, String operatorMainClass) throws Exception{
+		TFramedTransport transport = new TFramedTransport(new TSocket(consumerSlaveServerIPAndPort.split(":")[0], Integer.parseInt(consumerSlaveServerIPAndPort.split(":")[1]), THRIFT_SESSION_TIMEOUT));
+		TProtocol protocol = new TCompactProtocol(transport);
+		SlaveService.Client client = new SlaveService.Client(protocol);
+		transport.open();
+		client.removeOperator(operatorMainClass, true);
+		transport.close();
+	}
+
+	private void stopProducer(String operatorMainClass) throws Exception{
+		String[] otherSlaveServersArray = SystemConfig.getString("other_slave_servers").split(",");
+		for (String otherSlaveServer : otherSlaveServersArray) {
+			TFramedTransport transport = new TFramedTransport(new TSocket(otherSlaveServer.split(":")[0], Integer.parseInt(otherSlaveServer.split(":")[1]), THRIFT_SESSION_TIMEOUT));
+			TProtocol protocol = new TCompactProtocol(transport);
+			SlaveService.Client client = new SlaveService.Client(protocol);
+			transport.open();
+			client.removeOperator(operatorMainClass, false);
+			transport.close();
+		}
 	}
 
 }

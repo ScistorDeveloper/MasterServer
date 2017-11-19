@@ -15,33 +15,22 @@ public class Response {
 	 */
 	public static class TaskResponse{
 
-		private String taskId;
 		private int errorCode;
 		private List<String> errorInfo;
 
-		public TaskResponse(String taskId, int errorCode, List<String> errorInfo) {
+		public TaskResponse(int errorCode, List<String> errorInfo) {
 			super();
-			this.taskId = taskId;
 			this.errorCode = errorCode;
 			this.errorInfo = errorInfo;
 		}
 
 		public String toJSON(){
 			JSONObject obj=new JSONObject();
-			obj.put("taskId", taskId);
 			obj.put("errorCode", errorCode);
 			JSONArray JArray = new JSONArray();
 			JArray.add(errorInfo);
 			obj.put("errorInfo", JArray.toString());
 			return obj.toString();
-		}
-
-		public String getTaskId() {
-			return taskId;
-		}
-
-		public void setTaskId(String taskId) {
-			this.taskId = taskId;
 		}
 
 		public int getErrorCode() {

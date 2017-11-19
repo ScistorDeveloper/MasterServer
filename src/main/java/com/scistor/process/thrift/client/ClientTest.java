@@ -25,7 +25,7 @@ public class ClientTest {
 	//测试程序入口
 	public static void main(String[] args) throws TException, ClassNotFoundException, IOException {
 		String xmlContent="";
-		FileInputStream fis =new FileInputStream("E:\\new.xml");
+		FileInputStream fis =new FileInputStream("E:\\new2.xml");
 		byte[] b=new byte[fis.available()];
 		fis.read(b);
 		fis.close();
@@ -39,7 +39,7 @@ public class ClientTest {
 			TProtocol protocol=new TCompactProtocol(transport);
 			MasterService.Client client=new MasterService.Client(protocol);
 			transport.open();
-			String result=client.newTask(taskId, xmlContent);
+			String result=client.addOperators(xmlContent);
 			System.out.println(String.format("Result is [%s]", result));
 			LOG.error(String.format("taskId=%s,result=%s",taskId,result));
 			transport.close();
