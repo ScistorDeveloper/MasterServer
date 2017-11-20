@@ -129,18 +129,6 @@ public class OperatorScheduler {
 
 	static{
 		initClassLoader();
-		//主节点中完成白名单过滤算子的汇聚
-		final WhiteListFilterOperator whiteListFilterOperator = new WhiteListFilterOperator();
-		Map<String, String> config = new HashedMap();
-		whiteListFilterOperator.init(config, null);
-		Thread thread = new Thread(new Runnable() {
-			@Override
-			public void run() {
-				whiteListFilterOperator.consumer();
-			}
-		});
-		thread.setName("com.scistor.process.operator.Impl.WhiteListFilterOperator");
-		thread.start();
 	}
 
 	private static void initClassLoader() {
