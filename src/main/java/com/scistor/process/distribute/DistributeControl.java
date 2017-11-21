@@ -39,16 +39,16 @@ public class DistributeControl implements Runnable, RunningConfig{
 	static {
 		//读取配置文件，将太极从节点信息和赛思从节点信息分别放入对应的list中
 		getSlaves();
-		try {
-			zookeeper = ZKOperator.getZookeeperInstance();
-		} catch (IOException e) {
-			LOG.error("Get zk instance error", e);
-		}
 	}
 
 	public DistributeControl(List<Map<String, String>> mainClass2ElementList) {
 		super();
 		this.mainClass2ElementList = mainClass2ElementList;
+		try {
+			zookeeper = ZKOperator.getZookeeperInstance();
+		} catch (IOException e) {
+			LOG.error("Get zk instance error", e);
+		}
 	}
 
 	@Override

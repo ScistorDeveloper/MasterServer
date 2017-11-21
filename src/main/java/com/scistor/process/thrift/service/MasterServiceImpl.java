@@ -1,11 +1,10 @@
 package com.scistor.process.thrift.service;
 
 import com.google.common.base.Objects;
-import com.scistor.process.distribute.DistributeControl;
 import com.scistor.process.distribute.OperatorScheduler;
 import com.scistor.process.pojo.Response.OperatorResponse;
 import com.scistor.process.pojo.Response.TaskResponse;
-import com.scistor.process.thrift.client.ClientTest;
+import com.scistor.process.thrift.client.addOperatorTest;
 import com.scistor.process.thrift.service.MasterService.Iface;
 import com.scistor.process.utils.ClassUpdateHelper;
 import com.scistor.process.utils.ErrorUtil;
@@ -19,8 +18,6 @@ import org.apache.thrift.protocol.TCompactProtocol;
 import org.apache.thrift.protocol.TProtocol;
 import org.apache.thrift.transport.TFramedTransport;
 import org.apache.thrift.transport.TSocket;
-import org.apache.thrift.transport.TTransportException;
-import org.apache.zookeeper.KeeperException;
 import org.apache.zookeeper.WatchedEvent;
 import org.apache.zookeeper.Watcher;
 import org.apache.zookeeper.ZooKeeper;
@@ -42,7 +39,7 @@ import java.util.concurrent.CountDownLatch;
  */
 public class MasterServiceImpl implements RunningConfig, Iface {
 
-	private static final Log LOG = LogFactory.getLog(ClientTest.class);
+	private static final Log LOG = LogFactory.getLog(addOperatorTest.class);
 
 	private static final ConcurrentHashMap<String,String> ClassToCompenent=new ConcurrentHashMap<String,String>();
 
@@ -243,6 +240,7 @@ public class MasterServiceImpl implements RunningConfig, Iface {
 			stopConsumer(ip_port, operatorMainClass);
 			//在太极执行该算子producer阶段的从节点上，结束该算子producer线程的执行
 			stopProducer(operatorMainClass);
+			ZKOperator.deleteZNode(zookeeper, null, ZK_RUNNING_OPERATORS + "/" + operatorMainClass);
 		}
 	}
 

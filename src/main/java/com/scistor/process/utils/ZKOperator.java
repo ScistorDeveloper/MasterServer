@@ -87,6 +87,19 @@ public class ZKOperator implements RunningConfig {
 		if(!Objects.equal(cdl, null)){
 			cdl.await();
 		}
+
+		if (zookeeper.getChildren(path, false).size() == 0) {
+			//删除节点
+			LOG.info(String.format("Deleting Node Path:[%s]", path));
+			zookeeper.delete(path, -1);
+		} else {
+			//递归查找非空子节点
+			List<String> children = zookeeper.getChildren(path, true);
+			for (String child : children) {
+				deleteZNode(zookeeper, null, path + "/" + child);
+			}
+		}
+
 		if(zookeeper.exists(path, false)!=null){
 			zookeeper.delete(path, -1);
 			LOG.info("delete znode:" + path);

@@ -1,9 +1,9 @@
-package com.scistor.process.operator.Impl;
+package com.scistor.process.operator.impl;
 
 import com.scistor.process.operator.TransformInterface;
 import com.scistor.process.record.Record;
+import com.scistor.process.record.extend.HttpRecord;
 import com.scistor.process.utils.Map2String;
-import com.scistor.process.utils.TopicUtil;
 import kafka.consumer.Consumer;
 import kafka.consumer.ConsumerConfig;
 import kafka.consumer.ConsumerIterator;
@@ -23,6 +23,7 @@ import java.util.concurrent.ArrayBlockingQueue;
 public class WhiteListFilterOperator implements TransformInterface {
 
     private static final Log LOG = LogFactory.getLog(WhiteListFilterOperator.class);
+    private static boolean shutdown = true;
     private String zookeeper_addr;
     private String topic = "com.scistor.process.operator.impl.WhiteListFilterOperator";
     private String mainclass;
@@ -50,7 +51,6 @@ public class WhiteListFilterOperator implements TransformInterface {
             props.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");
             props.put("request.required.acks", "1");
             producer = new KafkaProducer<String, String>(props);
-            TopicUtil.createTopic(zookeeper_addr, topic);
         } else if (task_type.equals("consumer")) {
             props.put("zookeeper.connect", zookeeper_addr);
             props.put("auto.offset.reset","smallest");
@@ -61,6 +61,7 @@ public class WhiteListFilterOperator implements TransformInterface {
             props.put("auto.commit.interval.ms", "5000");
             topicCountMap.put(topic, 1);
             consumer = Consumer.createJavaConsumerConnector(new ConsumerConfig(props));
+            shutdown = false;
         }
 
     }
@@ -74,8 +75,9 @@ public class WhiteListFilterOperator implements TransformInterface {
     public void producer() {
         try {
             while(true){
+                System.out.println("producing...");
                 if(queue.size() > 0) {
-                    Map<String, String> record = (Map<String, String>) queue.take();
+                    Map<String, String> record = ((HttpRecord)queue.take()).getRecord();
                     String host = record.get("host");
                     if (null != host && !"".equals(host)) {
                         String line = Map2String.transMapToString(record);
@@ -84,6 +86,7 @@ public class WhiteListFilterOperator implements TransformInterface {
                         LOG.info(String.format("一条数据[%s]已经写入Kafka, topic:[%s]", host+"|| "+line, topic));
                     }
                 }else {
+                    System.out.println("waiting...");
                     Thread.sleep(1000);
                 }
             }
@@ -108,8 +111,32 @@ public class WhiteListFilterOperator implements TransformInterface {
             threads[i].start();
         }
 
-        LOG.info(String.format("Number of thread is [%s]", threads.length));
+        while (true) {
+            if (shutdown) {
+                System.out.println("SHUTDOWN!!!!!");
+                consumer.shutdown();
+                break;
+            }
+        }
 
+//        ConsumerIterator<byte[], byte[]> iterator = stream.iterator();
+//        while (iterator.hasNext()) {
+//            String message = new String(iterator.next().message());
+//            LOG.info(String.format("已经在Kafka topic:[%s], 消费一条数据:[%s]", topic, message));
+//            consumer.shutdown();
+//        }
+
+
+    }
+
+    @Override
+    public void close() {
+        if (null != consumer) {
+            consumer.shutdown();
+        }
+        if (null != producer) {
+            producer.close();
+        }
     }
 
     class HanldMessageThread implements Runnable {
@@ -127,8 +154,17 @@ public class WhiteListFilterOperator implements TransformInterface {
                 String message = new String(iterator.next().message());
                 LOG.info(String.format("已经在Kafka topic:[%s], 消费一条数据:[%s]", topic, message));
             }
+
         }
 
+    }
+
+    public static boolean isShutdown() {
+        return shutdown;
+    }
+
+    public static void setShutdown(boolean shutdown) {
+        WhiteListFilterOperator.shutdown = shutdown;
     }
 
 }

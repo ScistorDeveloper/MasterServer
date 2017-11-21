@@ -1,11 +1,9 @@
 package com.scistor.process.distribute;
 
-import com.scistor.process.operator.Impl.WhiteListFilterOperator;
 import com.scistor.process.operator.TransformInterface;
 import com.scistor.process.pojo.Response.TaskResponse;
 import com.scistor.process.utils.ZKOperator;
 import com.scistor.process.utils.params.RunningConfig;
-import org.apache.commons.collections.map.HashedMap;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.apache.zookeeper.KeeperException;
@@ -23,7 +21,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.concurrent.ArrayBlockingQueue;
 
 /**
  * @Title OperatorScheduler
@@ -45,10 +42,10 @@ public class OperatorScheduler {
 				errorInfo.add("本次添加算子个数为0，或添加的算子均存在于系统中不能重复添加");
 				return new TaskResponse(0, errorInfo);
 			}
-			TaskResponse tResponse = validateActions(mainClass2ElementList);
-			if (tResponse != null) {
-				return tResponse;
-			}
+//			TaskResponse tResponse = validateActions(mainClass2ElementList);
+//			if (tResponse != null) {
+//				return tResponse;
+//			}
 			DistributeControl distributeControl = new DistributeControl(mainClass2ElementList);
 			Thread thread = new Thread(distributeControl);
 			thread.setName("initOperators");

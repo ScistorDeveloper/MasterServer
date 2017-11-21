@@ -17,15 +17,15 @@ import java.util.UUID;
 /**
  * Created by Administrator on 2017/11/6.
  */
-public class ClientTest {
+public class addOperatorTest {
 
-	private static final Log LOG = LogFactory.getLog(ClientTest.class);
+	private static final Log LOG = LogFactory.getLog(addOperatorTest.class);
 	private static final int SESSION_TIMEOUT=30000;
 
 	//测试程序入口
 	public static void main(String[] args) throws TException, ClassNotFoundException, IOException {
 		String xmlContent="";
-		FileInputStream fis =new FileInputStream("E:\\new2.xml");
+		FileInputStream fis =new FileInputStream("D:\\HS\\workflow\\new.xml");
 		byte[] b=new byte[fis.available()];
 		fis.read(b);
 		fis.close();

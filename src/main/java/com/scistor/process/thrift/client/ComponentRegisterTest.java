@@ -20,7 +20,7 @@ import java.nio.ByteBuffer;
  */
 public class ComponentRegisterTest {
 
-	private static final Log LOG = LogFactory.getLog(ClientTest.class);
+	private static final Log LOG = LogFactory.getLog(addOperatorTest.class);
 	private static final int SESSION_TIMEOUT=30000;
 
 	public static void main(String[] args) throws TException, IOException {
