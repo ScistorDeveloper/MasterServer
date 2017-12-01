@@ -6,6 +6,7 @@ import com.scistor.process.utils.params.RunningConfig;
 import com.scistor.process.utils.params.SystemConfig;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.apache.log4j.PropertyConfigurator;
 import org.apache.thrift.TProcessor;
 import org.apache.thrift.TProcessorFactory;
 import org.apache.thrift.protocol.TCompactProtocol;

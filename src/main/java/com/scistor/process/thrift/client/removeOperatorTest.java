@@ -23,7 +23,7 @@ public class removeOperatorTest {
 
     public static void main(String[] args) throws TException {
 
-        String SERVER_IP="127.0.0.1";
+        String SERVER_IP="127.0.0.1";//192.168.91.200
         int SERVER_PORT=18081;
         TTransport trans=new TSocket(SERVER_IP,SERVER_PORT,SESSION_TIMEOUT);
         TFramedTransport transport=new TFramedTransport(trans);
@@ -31,9 +31,11 @@ public class removeOperatorTest {
         MasterService.Client client=new MasterService.Client(protocol);
         transport.open();
         List<String> mainClassList = new ArrayList<String>();
+        mainClassList.add("com.scistor.process.operator.impl.GeneratePasswordBookForSpecificHostOperator");//GeneratePasswordBookOperator
+        mainClassList.add("com.scistor.process.operator.impl.GeneratePasswordBookOperator");
         mainClassList.add("com.scistor.process.operator.impl.WhiteListFilterOperator");
         String result = client.removeOperators(mainClassList);
-        System.out.println(String.format("Result is [%s]", result));
+        LOG.info(String.format("Result is [%s]", result));
         transport.close();
 
     }

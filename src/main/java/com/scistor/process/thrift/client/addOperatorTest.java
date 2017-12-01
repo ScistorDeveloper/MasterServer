@@ -25,12 +25,12 @@ public class addOperatorTest {
 	//测试程序入口
 	public static void main(String[] args) throws TException, ClassNotFoundException, IOException {
 		String xmlContent="";
-		FileInputStream fis =new FileInputStream("D:\\HS\\workflow\\new.xml");
+		FileInputStream fis =new FileInputStream("D:\\HS\\workflow\\whole.xml");//GeneratePasswordBookOperator
 		byte[] b=new byte[fis.available()];
 		fis.read(b);
 		fis.close();
 		xmlContent=new String(b,"utf-8");
-		String SERVER_IP="127.0.0.1";
+		String SERVER_IP="127.0.0.1";//"192.168.91.200"
 		int SERVER_PORT=18081;
 		for(int i=0;i<1;i++) {
 			String taskId = UUID.randomUUID().toString();
@@ -40,7 +40,6 @@ public class addOperatorTest {
 			MasterService.Client client=new MasterService.Client(protocol);
 			transport.open();
 			String result=client.addOperators(xmlContent);
-			System.out.println(String.format("Result is [%s]", result));
 			LOG.error(String.format("taskId=%s,result=%s",taskId,result));
 			transport.close();
 			LOG.error("*********************************");

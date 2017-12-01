@@ -7,27 +7,46 @@
   <version>1.0-SNAPSHOT</version>
 
   <build>
+    <!--<resources>-->
+      <!--<resource>-->
+        <!--<directory>src/main/resources</directory>-->
+        <!--<excludes>-->
+          <!--<exclude>**/*</exclude>-->
+        <!--</excludes>-->
+        <!--<filtering>true</filtering>-->
+      <!--</resource>-->
+    <!--</resources>-->
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>2.6</version>
         <configuration>
-          <source>1.7</source>
-          <target>1.7</target>
-          <encoding>utf8</encoding>
+          <archive>
+            <manifest>
+              <!--指定main入口-->
+              <mainClass>com.scistor.process.thrift.server.StartControlServer</mainClass>
+              <addClasspath>true</addClasspath>
+              <classpathPrefix>lib/</classpathPrefix>
+            </manifest>
+            <manifestEntries>
+              <Class-Path>./</Class-Path>
+            </manifestEntries>
+          </archive>
+          <excludes>
+            <exclude>config/**</exclude>
+          </excludes>
         </configuration>
       </plugin>
       <plugin>
         <artifactId>maven-assembly-plugin</artifactId>
         <configuration>
-          <descriptorRefs>
-            <descriptorRef>jar-with-dependencies</descriptorRef>
-          </descriptorRefs>
-          <archive>
-            <manifest>
-              <mainClass>com.scistor.process.thrift.server.StartControlServer</mainClass>
-            </manifest>
-          </archive>
+          <!-- not append assembly id in release file name -->
+          <appendAssemblyId>false</appendAssemblyId>
+          <descriptors>
+            <!--打包的详细描述，需要配置额外文件-->
+            <descriptor>src/main/build/package.xml</descriptor>
+          </descriptors>
         </configuration>
         <executions>
           <execution>
@@ -103,6 +122,26 @@
       <groupId>org.apache.kafka</groupId>
       <artifactId>kafka_2.10</artifactId>
       <version>0.8.2.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.hadoop</groupId>
+      <artifactId>hadoop-common</artifactId>
+      <version>2.6.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.hadoop</groupId>
+      <artifactId>hadoop-hdfs</artifactId>
+      <version>2.6.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.hadoop</groupId>
+      <artifactId>hadoop-client</artifactId>
+      <version>2.6.4</version>
+    </dependency>
+    <dependency>
+      <groupId>redis.clients</groupId>
+      <artifactId>jedis</artifactId>
+      <version>2.9.0</version>
     </dependency>
   </dependencies>
 
